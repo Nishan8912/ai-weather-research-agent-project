@@ -1,8 +1,8 @@
 import streamlit as st
 from agent import build_agent
 
-st.set_page_config(page_title="AI Agent", page_icon="🤖", layout="centered")
-st.title("🤖 AI Research Agent")
+st.set_page_config(page_title="WeatherWise", page_icon="🌤️", layout="centered")
+st.title("🌤️ WeatherWise")
 st.caption("Powered by Groq + LangChain | Can search the web and check live weather")
 
 if "agent" not in st.session_state:
