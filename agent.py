@@ -6,5 +6,5 @@ from dotenv import load_dotenv
 load_dotenv()
 
 def build_agent():
-    llm = ChatGroq(model="llama-3.3-70b-versatile")
+    llm = ChatGroq(model="llama3-groq-70b-8192-tool-use-preview")
     return create_react_agent(llm, all_tools)
